@@ -4,7 +4,7 @@ package co.yedam.numgame;
  * 작성자 : 김효진
  */
 public class NumberGameApp {
-	//컴 임의의 수
+	//컴 임의의 수 
 	int com;    //난수 컴퓨터가 만든 수(1~10)
 	int user;   //사용자가 입력한 값
 	void init() {
