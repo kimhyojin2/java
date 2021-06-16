@@ -1,14 +1,14 @@
 package co.vendingmachine.model;
 
-public class MachineVO {
+public class Machine {
 	private String drink_name;
 	private int drink_price;
 	private int drink_stock;
 
-	public MachineVO() {
+	public Machine() {
 	}
 
-	public MachineVO(String drink_name, int drink_price, int drink_stock) {
+	public Machine(String drink_name, int drink_price, int drink_stock) {
 		super();
 		this.drink_name = drink_name;
 		this.drink_price = drink_price;
